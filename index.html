@@ -6,7 +6,7 @@
 </head>
 <body class="body">
 <h1>Trabalho HTML - Tópicos Especiais</h1>
-<div>
+<form>
     <label class="label">Nome:<br/><input type="text" id="nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ ]+" required="required" placeholder="Xxxxx Xxxxx xx Xxxxx"/> <br/></label>
     <label class="label">Data de nascimento:<br/><input type="date" /><br/></label>
     <label class="label">E-mail:<br/><input type="email" id="email" placeholder="xxxxx@xxxxx.xxx" required="required" /> <br/></label>
@@ -23,10 +23,10 @@
       <option value="nao">Não</option>
     </select><br/></label>
     <label class="label">Municipio de origem:<br/><input type="text" id="municipio" /><br/></label>
-    <input class='button' type="submit" value="Cancelar"/>
+    <input class='button' type="reset" value="Cancelar"/>
     <input class='button' type="submit"  value="Gravar"/>
-  </form>
-  <form> DADOS<br/>
+</form>
+<form> DADOS<br/>
     <label class="label">Nome:<br/><input type="text" disabled="disabled" readonly /> <br/></label>
     <label class="label">Data de nascimento:<br/><input type="date" disabled="disabled" readonly /><br/></label>
     <label class="label">E-mail:<br/><input type="email" disabled="disabled" readonly /> <br/></label>
@@ -36,9 +36,8 @@
     <label class="label">Celular:<br/><input type="tel" disabled="disabled" readonly /> <br/></label>
     <label class="label">Fumante:<br/><input type="text" disabled="disabled" readonly ><br/></label>
     <label class="label">Municipio de origem:<br/><input type="text" disabled="disabled" readonly /><br/></label>
-    <input class='button' type="submit" value="Limpar"/>
-  </form>
-</div>
+    <input class='button' type="reset" value="Limpar"/>
+</form>
 </body>
 <footer>
   <p>&copy; Faccat - Tópicos Especiais 2022/02</p>
