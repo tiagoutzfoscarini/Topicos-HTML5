@@ -1,0 +1,46 @@
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <!--  <link href="css/style.css" rel="stylesheet" type="text/css">-->
+</head>
+<body class="body">
+<h1>Trabalho HTML - Tópicos Especiais</h1>
+<div>
+    <label class="label">Nome:<br/><input type="text" id="nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ ]+" required="required" placeholder="Xxxxx Xxxxx xx Xxxxx"/> <br/></label>
+    <label class="label">Data de nascimento:<br/><input type="date" /><br/></label>
+    <label class="label">E-mail:<br/><input type="email" id="email" placeholder="xxxxx@xxxxx.xxx" required="required" /> <br/></label>
+    <label class="label">Senha:<br/><input type="password" id="senha" /><br/></label>
+    <label class="label">Sexo:<br/><select id="sexo">
+      <option value="Outro">Outro</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Feminino">Feminino</option>
+    </select><br/></label>
+    <label class="label">Telefone residencial:<br/><input type="tel" id="telefone" size="12" pattern="[0-9]{2} [0-9]{9}" placeholder="xx xxxxxxxxx"/> <br/></label>
+    <label class="label">Celular:<br/><input type="tel" id="celular" size="12" pattern="[0-9]{2} [0-9]{9}" placeholder="xx xxxxxxxxx"/> <br/></label>
+    <label class="label">Fumante:<br/><select id="fumante">
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br/></label>
+    <label class="label">Municipio de origem:<br/><input type="text" id="municipio" /><br/></label>
+    <input class='button' type="submit" value="Cancelar"/>
+    <input class='button' type="submit"  value="Gravar"/>
+  </form>
+  <form> DADOS<br/>
+    <label class="label">Nome:<br/><input type="text" disabled="disabled" readonly /> <br/></label>
+    <label class="label">Data de nascimento:<br/><input type="date" disabled="disabled" readonly /><br/></label>
+    <label class="label">E-mail:<br/><input type="email" disabled="disabled" readonly /> <br/></label>
+    <label class="label">Senha:<br/><input type="password" disabled="disabled" readonly /><br/></label>
+    <label class="label">Sexo:<br/><input type="text" disabled="disabled" readonly ><br/></label>
+    <label class="label">Telefone residencial:<br/><input type="tel" disabled="disabled" readonly /> <br/></label>
+    <label class="label">Celular:<br/><input type="tel" disabled="disabled" readonly /> <br/></label>
+    <label class="label">Fumante:<br/><input type="text" disabled="disabled" readonly ><br/></label>
+    <label class="label">Municipio de origem:<br/><input type="text" disabled="disabled" readonly /><br/></label>
+    <input class='button' type="submit" value="Limpar"/>
+  </form>
+</div>
+</body>
+<footer>
+  <p>&copy; Faccat - Tópicos Especiais 2022/02</p>
+</footer>
+</html>
