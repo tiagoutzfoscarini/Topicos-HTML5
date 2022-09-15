@@ -17,6 +17,7 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     padding: 0;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -26,27 +27,81 @@ h1 {
     /*display: flex;*/
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 14px;
 }
 
 form input {
     width: 100%;
 }
 
-input, select {
-    margin-bottom: 5px
+form input:hover, select:hover {
+    border: solid 2px blue;
 }
 
 table {
     /*border: black 1px solid;*/
 }
 
+tr {
+    vertical-align: text-top;
+}
+
 td {
     border: black 1px solid;
 }
 
-button {
+select, #date, #displayDate, #displaySmoker, #displayGender {
+    width: 50%;
+}
+
+input, select {
+    margin-top:2px;
+    margin-bottom: 8px;
+}
+
+.button {
     /*align-self:flex-end;*/
     /*margin-left:auto;*/
     /*position: relative;*/
     /*margin-left: auto;*/
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    border: solid 2px black;
+    color: white;
+}
+
+input[type=reset] {
+    background-color: lightcoral;
+}
+
+input[type=reset]:hover {
+    background-color: darkred;
+}
+
+input[type=submit] {
+    background-color: lightblue;
+}
+
+input[type=submit]:hover {
+    background-color: navy;
+}
+
+.obs {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+.divButtons {
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
