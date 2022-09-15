@@ -1,0 +1,46 @@
+* {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.form_left, .form_right {
+    width: 300px;
+    margin: 5px;
+    display: flex;
+}
+
+input, select {
+    margin-bottom: 5px;
+}
+
+table {
+    /*border: black 1px solid;*/
+}
+
+td {
+    border: black 1px solid;
+}
+
+button {
+    /*align-self:flex-end;*/
+    /*margin-left:auto;*/
+    /*position: relative;*/
+    /*margin-left: auto;*/
+}
