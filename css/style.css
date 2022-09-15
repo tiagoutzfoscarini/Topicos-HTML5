@@ -23,11 +23,17 @@ h1 {
 .form_left, .form_right {
     width: 300px;
     margin: 5px;
-    display: flex;
+    /*display: flex;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form input {
+    width: 100%;
 }
 
 input, select {
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
 
 table {
